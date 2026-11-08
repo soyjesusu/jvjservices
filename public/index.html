@@ -140,7 +140,7 @@ footer nav{display:flex;gap:20px}
 
 <section id="portafolio" style="padding-top:84px"><div class="wrap">
 <h2>Proyectos que ya están funcionando</h2>
-<p class="lead">Hojea el portafolio como una revista: 10 proyectos reales, en línea y con clientes usándolos.</p>
+<p class="lead">Hojea el portafolio como una revista: 11 proyectos reales, en línea y con clientes usándolos.</p>
 <div class="stage"><div class="book" id="book" tabindex="0" aria-label="Portafolio. Usa las flechas del teclado para pasar de página."></div></div>
 <div class="ctl"><button class="btn ghost" id="pv" type="button">Anterior</button><span id="cnt" aria-live="polite"></span><button class="btn" id="nx" type="button">Siguiente</button></div>
 <p style="text-align:center;margin:22px 0 0"><a class="btn" href="portafolio.html">Ver todos los proyectos</a></p>
@@ -200,7 +200,8 @@ var P=[
 ["Asesorías Empresariales Vadillo","Asesoría contable y fiscal","https://www.vadillo.online/home","Sitio de asesoría contable y fiscal con servicios, academia, blog y reserva de conversatorios con pago por WhatsApp.",["Servicios y academia","Blog","Reserva de conversatorios"]],
 ["Escritorio Jurídico Bustamante Pérez","Servicios legales","https://www.lawyerinternacional.lat/inicio","Sitio de un escritorio jurídico con 13 áreas de práctica y agenda en línea de consultas gratuitas.",["13 áreas de práctica","Agenda en línea","Consultas gratuitas"]],
 ["Atómico Travel","Turismo","https://www.atomicotravel.online/home","Portal de agencia de viajes con destinos nacionales e internacionales, cruceros, tours y solicitud de cotizaciones.",["Destinos y cruceros","Tours","Solicitud de cotizaciones"]],
-["Bv-trip","App de traslados","https://www.guaomarketing.world/bosquevalle","App web para reservar puestos en el carro, reportar Pago Móvil y registrar conductores, con envío de datos por WhatsApp.",["Reserva de puestos","Reporte de Pago Móvil","Registro de conductores"]]
+["Bv-trip","App de traslados","https://www.guaomarketing.world/bosquevalle","App web para reservar puestos en el carro, reportar Pago Móvil y registrar conductores, con envío de datos por WhatsApp.",["Reserva de puestos","Reporte de Pago Móvil","Registro de conductores"]],
+["SkyThink","Capacitación aeronáutica","https://skythink.soyjesusu.workers.dev/","Plataforma de capacitación aeronáutica en línea: inglés OACI, factores humanos con neurociencia aplicada y orientación profesional. Primera cohorte en español en marzo de 2027.",["Bootcamp de inglés OACI nivel 4+","Neuro-Aviation Soft Skills","Orientación vocacional en aviación","Clases en vivo y grabadas"]]
 ];
 function pv(p){return p[5]?'<img class="shot" src="'+p[5]+'" alt="Vista previa de '+p[0]+'">':'<iframe class="vf" data-src="'+p[2]+'" title="Vista previa de '+p[0]+'" tabindex="-1" aria-hidden="true" sandbox="allow-scripts allow-same-origin" referrerpolicy="no-referrer"></iframe>'}
 var book=document.getElementById('book'),N=P.length+1,h='<div class="leftstatic"><div><h3>Hojea el portafolio</h3><p>Usa las flechas del teclado, desliza o toca los botones para pasar de página.</p></div></div>';
